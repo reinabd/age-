@@ -16,7 +16,7 @@ const diff = currentTime - newYearTime;
 const y = Math.floor(diff / 1000 / 60 / 60/24/365.2428) ;
 const mo = Math.floor(diff / 1000 / 60 / 60/24/30.5) %12 ;
 // const d = currentTime.getDate() - newYearTime.getDate();
-const d = Math.floor(diff / 1000 / 60 / 60 /24) % 31;
+const d = Math.floor(diff / 1000 / 60 / 60 /24) % 32;
 
 
 const h = Math.floor(diff / 1000 / 60 / 60) % 24;
